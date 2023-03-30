@@ -1,0 +1,14 @@
+p{
+    background-color: aliceblue;
+    color: brown;
+    font-family: "Lucida Console"
+
+}
+span{
+    font-size: 150%;
+    text-decoration: underline;
+}
+#my4{
+    color : blue;
+    text-align: center;
+}

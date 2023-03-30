@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>라디오버튼 만들기</title>
+</head>
+<body>
+<h3>먹고 싶은 것 하나만 선택?</h3>
+<hr>
+<form>
+	<input type="radio" name="china" value="1">
+		짜장면<img src="/templates/img/test1.PNG"><br>
+	<input type="radio" name="china" value="2" checked>
+		짬뽕<img src="/templates/img/test2.PNG"><br>
+
+</form>
+<br>
+<h3>원하는 요일 모두 체크하세요</h3>
+<hr>
+<form>
+	월요일 <input type="checkbox" value="1">
+	화요일 <input type="checkbox" value="2">
+    수요일 <input type="checkbox" value="3">
+    목요일 <input type="checkbox" value="4">
+    금요일 <input type="checkbox" value="5">
+    토요일 <input type="checkbox" value="6">
+    일요일 <input type="checkbox" value="7" checked>
+</form>
+<h3>지역 선택</h3>
+<hr>
+<form>
+	<select name="korea">
+		<option value="1">서울</option>
+		<option value="2" selected>부산</option>
+		<option value="3">제주</option>
+	</select>
+</form>
+<h3>datalist</h3>
+<hr>
+
+<form action="" method="">
+    지역 입력 : <input type="text">
+    <datalist id="depList">
+        <option value="경기도"></option>
+        <option value="강원도"></option>
+        <option value="경상도"></option>
+        <option value="전라도"></option>
+        <option value="제주도"></option>
+    </datalist>
+    <button type="submit">제출하기</button>
+</form>
+</body>
+</html>

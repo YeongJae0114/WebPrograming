@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover 활용</title>
+</head>
+<style>
+.img-box{
+  position:relative;
+  width: 400px;
+  height: 400px;
+}
+.img-box img{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+}
+.img-box img.img-hover{
+  display:none;
+}
+.img-box:hover img.img{
+  display:none;
+}
+.img-box:hover img.img-hover{
+  display:block
+}
+</style>
+<body>
+    <h2>:hovre 활용</h2><hr>
+    <p>마우스를 올려보세여</p>
+
+        <div class="img-box">
+            <img class="img" src="/templates/img/test4.PNG" alt="">
+            <img class="img-hover" src="/templates/img/test3.PNG" alt="">
+          </div>
+
+</div>
+</body>
+</html>

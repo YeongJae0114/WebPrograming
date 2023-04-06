@@ -1,14 +1,41 @@
-p{
-    background-color: aliceblue;
-    color: brown;
-    font-family: "Lucida Console"
+.g1{
+    color: rgb(066, 133, 244);
+}
+.o1{
+    color: rgb(234, 067, 053);
+}
+.o2{
+    color: rgb(251, 188, 005);
+}
+.l1{
+    color: rgb(052, 168, 083);
+}
 
+.main{
+    background-color: aqua;
 }
-span{
-    font-size: 150%;
-    text-decoration: underline;
-}
-#my4{
-    color : blue;
+
+.head{
+    color: brown;
     text-align: center;
 }
+.help{
+    color: blue;
+}
+p.help{
+    color: red;
+    font-size: 30px;
+}
+#hot{
+    background-color: orangered;
+}
+
+.my2{
+    text-decoration: none;
+}
+.my2:hover{
+    text-decoration : underline;
+    color: violet;
+}
+
+

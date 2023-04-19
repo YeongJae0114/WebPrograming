@@ -6,23 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        span{
-            padding-right: 20%;
-            border-bottom-style: solid ;
-            border-width: 1px;
-            
+        .index{
+            border: 1px solid green; 
         }
-        button:active{
-            color: magenta;
+
+        button:hover{
+            color: #ff00ff;
         }
-        
+        .my{
+            border-bottom: 1px solid black;
+        }
     </style>
 </head>
 <body>
-    <h2>오디오 리스트</h2><hr>
-    <span>애국가</span><button>재생</button><button>중지</button><br>
-    <span>애국가가가</span><button>재생</button><button>중지</button><br>
-    <span>애국가가감줌</span><button>재생</button><button>중지</button><br>
+   <table>
+    <tr><td class="index">1</td><td class="my">애국가1</td><td><button>재생</button></td><td><button>중지</button></td></tr>
+    <tr><td class="index">1</td><td class="my">애국가ㅁㅁㄴㅇ2</td><td><button>재생</button></td><td><button>중지</button></td></tr>
+    <tr><td class="index">1</td><td class="my">애국가ㅁㅁㄴㅁㅇㅇㅇ3</td><td><button>재생</button></td><td><button>중지</button></td></tr>
 
+
+   </table>
 </body>
 </html>
